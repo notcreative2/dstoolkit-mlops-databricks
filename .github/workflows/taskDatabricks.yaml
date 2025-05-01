@@ -55,7 +55,9 @@ jobs:
 
           sudo apt update && sudo apt install jq -y 
           python -m pip install requests python-dotenv poetry databricks-cli setuptools wheel dbx
-          python -m pip install azure-cli==2.49.0 azure-mgmt-storage==21.0.0
+          python -m pip install azure-cli==2.71.0 azure-mgmt-storage==21.0.0
+    #added rdms
+          python -m pip install azure-mgmt-rdbms
           
 
           az config set extension.use_dynamic_install=yes_without_prompt

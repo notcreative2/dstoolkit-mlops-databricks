@@ -3,8 +3,6 @@
 """
 import os
 import subprocess
-#added pip install
-pip install azure-mgmt-rdbms
 
 ARM_CLIENT_ID = os.environ['ARM_CLIENT_ID']
 ARM_CLIENT_SECRET = os.environ['ARM_CLIENT_SECRET']

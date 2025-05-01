@@ -14,7 +14,7 @@ steps:
 - script: |
     sudo apt update && sudo apt install jq -y    
     python -m pip install requests python-dotenv poetry databricks-cli setuptools wheel dbx
-    python -m pip install azure-cli==2.71.0 azure-mgmt-storage==21.0.0
+    python -m pip install azure-cli azure-mgmt-storage==21.0.0
     az extension add -n azure-cli-ml
     #added rdms
     python -m pip install azure-mgmt-rdbms

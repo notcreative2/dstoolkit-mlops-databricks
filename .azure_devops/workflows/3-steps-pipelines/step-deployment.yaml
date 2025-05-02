@@ -17,7 +17,7 @@ steps:
     python -m pip install azure-cli azure-mgmt-storage==21.0.0
     az extension add -n azure-cli-ml
     #added rdms
-    python -m pip install azure-mgmt-rdbms
+    python -m pip install azure-cli azure-mgmt-rdbms
   displayName: Install Packages
 
 
